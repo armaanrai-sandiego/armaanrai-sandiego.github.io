@@ -126,25 +126,45 @@
         <div class="row">
           <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
           
-            <img src="" alt="Image of your project" class="img-fluid">
+            <img src="images/BirthdayParadox Project.png" alt="Image of your project" class="img-fluid">
           
           </div>
           <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
             <div class="mb-4">
-              <h3>Birthday Paradox</h3>
+              <h3> The Birthday Paradox</h3>
               <p>
-               The idea of the birthday paradox seemed interesting and writing it into code <br>
-               made the idea of the birthday paradox more intersting. 
+               The idea of the birthday paradox, where in a room of 23 people, there is more than a 50% chance that
+               at least two people share the same birthday. <br> <br>
+               In the grand scheme of things it seems like an insane statement but this statement rendered true, 
+               as done by the coding within this project. 
               </p>
               <p>
-              Finding a probability of two people in a room will have the same birthday is more than half, 
-              provided n
+              This program is a Java simulation that runs experiments for group sizes from 5 to 100 people in increments of 5. 
+              There are about 20 trials per group size which randomly generates valid birthdates. The program then looks to 
+              calculate the percentagte of trials where at least two people share the same birthday. The output is then displayed 
+              in a clean table like format. The output shows the probability increasing as the group size increases. Which 
+              concludes the experiment in coding fashion. 
               </p>
               <p>
-              Implementation
+                For this projedct i was responsible for implementing the Birthday and Simulator Class. <br><br>
+                In Birthday.java, I created a class that generates valid brithdays, whilst also implementing the 
+                equals() method so that the two Birthday objects could be compared properly by value rather than reference.
+                This was essential for determining when there would be duplicate birthdays during trial. I made sure that
+                there would be one Random object used across the program to imporve efficiency. 
+              <p>
+                In simulator.java, I implemented the main program logic that runs experiments for group sizes from 
+                5 to 100, in the increments of 5, that executed 20 trials per group. Then printed the results in the 
+                table format. I focused on keeping the main method clean by having the rest of the logic handled in other 
+                classes whilst maintaining well-structured code. 
+              </p>
+              I then also helped refactored mine and my partners code to make sure that our code would meet the clean code 
+              practices that we are trying to form habits of. 
               </p>
               <p>
-              What did you learn
+              Throughout this project I learned valuable clean coding practices. Whilst also better understand 
+              object-oriented designs. Throughout this project I had to learn how to write good git commit messages
+              to push my code to Github. The most important aspect that I learned from this project is that programming 
+              can help us visualize mathematical concepts in ways I did not think was possible. 
               </p>
 
 
