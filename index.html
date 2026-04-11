@@ -154,6 +154,7 @@
                 table format. I focused on keeping the main method clean by having the rest of the logic handled in other 
                 classes while maintaining well-structured code. 
               </p>
+              <p>
               Then, I refactored my partner and my code to make sure that it would meet clean code practices 
               aligning with industry standards. 
               </p>
@@ -163,19 +164,65 @@
               and writing meaningful git commit messages to push my code to Github. The most important aspect that I learned from 
               this project is that programming can help us visualize mathematical concepts.  
               </p>
+              <p>
+              </p>
+
 
 
             </div>
 
-            
+          </div>
+        </div>      
 
+    </section>
+    
+    <section class="site-section border-bottom" id="elevator-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+            <img src="images/UML_P03_Ian_Armaan.png" alt="UML diagram of elevator simulation" class="img-fluid">
+          </div>
+          <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            <div class="mb-4">
+              <h3>Elevator Simulation</h3>
+              <p>
+                The wonders of how an Elevator works, how an elevator decides what floor to go to next. Well that
+                is what this project tackles, this project simulates a multi-elevator building system that 
+                schedules and routes elevators to serve passengers as efficiently as possible
+              </p>
+              <p>
+                The simulation models a building with multiple floors and elevators. Passengers are able to request
+                an elevator from any floor, adn teh system processes and dispatches the most 
+                suitable elevator based on a scheduling algorithm. The elevators pick up and drop off passengers while
+                tracking their state of idle, moving up, or moving down.
+              </p>
+              <p>
+                This project was designed by using object-oriented principles and SOLID guidleines. Where each of the
+                classes have a single responsibility: Elevator manages its own state, Scheduler handles dispatch logic,
+                and Simulator runs the simulation. an interface was used to have the schedule swappable between a complex
+                and a simple scheduler, and follows the Open/Closed and Dependency Inversion principles where making a new 
+                scheduling strategy can be plugged in without having to modify any of the existing code. 
+              </p>
+              <p>
+                I was responsible for implementing the Call calss that handles the calls of the elevators and gets the state of 
+                getStart() and getEnd(). I was also responsible for implementing the Abstract Elevator class that is able to extend
+                with different subclasses and able to override the method in Elevator in order to provide the specifications of the 
+                elevator provided by the requireemnts of the project. Throughout this porcess I followed test-driven implementation
+                where I wrote failing test cases first, then implemented just enough code in order for the code to make it pass. 
+                Throughout this process I also reviewed my partner's pull requests for the scheduler logic and simulator logic, 
+                making sure that there are clean code practices in place and making sure the code ran. 
+                And once merge conflicts were handled running debugging steps in order to make sure our code was ready for submission. 
+
+              </p>
+              <p>
+                Throughout this project I furthered my knowledge of OOp design patterns, the value of writing tests before code, and 
+                how to manage branches in a team Git workflow. 
+              </p>
+            </div>
           </div>
         </div>
       </div>
-      
-
     </section>
-
 
     <section class="site-section" id="contact-section" data-aos="fade">
       <div class="container">
