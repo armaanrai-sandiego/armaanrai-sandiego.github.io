@@ -215,8 +215,50 @@
 
               </p>
               <p>
-                Throughout this project I furthered my knowledge of OOp design patterns, the value of writing tests before code, and 
+                Throughout this project I furthered my knowledge of OOP design patterns, the value of writing tests before code, and 
                 how to manage branches in a team Git workflow. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section clas="site-section border-bottom" id="worldcup-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+            <img src="images/worldcupsimulator.png" alt="Output of WorldCup simulations" class="img-fluid">
+          </div>
+          <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            <div class="mb-4">
+              <h3>Fifa World Cup Tournament Simulator</h3>
+              <p>
+                Who will win the 2026 Fifa WorldCup? This project simulates the entire tournament thousands of times
+                using real time data and an Elo-based predictions to calculate each team's probability of winning.
+              </p>
+              <p>
+                The simulator models the full 2026 World Cup format - 12 gorups of 4 teams, a gorup stage, and a 32-team
+                knockout bracket including the 8 best third-place finishers. Match outcomes are determined using a weighted
+                prediction strategy combining Elo ratings, win rates, goal difference, and defensive strignth.
+              </p>
+              <p>
+                This project was designed using OOp principles and SOLID guidelines. The strategy pattern was applied through 
+                the PredictionStragey interface, allowing prediction algorithms to be swapped without modifying match or bracket 
+                logic. Dependency injection was used throughout - Match, Bracket, and Tournament all receive their strategies 
+                through constructors ratehr than creating them internally.
+              </p>
+              <p>
+                I was responsible for implementing the Bracket, Tournament, Simulator, SimulatorREsults, and Tournament factory 
+                classes. Throughout the process of writing this code I followd test-driven development, writing failing test cases
+                first then implementing just enough code to make them pass. Throughout this porcess I also reviewed my teammates' 
+                pull requests for Match, Group, and EloStrategy logic, ensuring clean code practices and SOLID principles were
+                maintained. 
+              </p>
+              <p>
+                Throughout this project I deepened my understanding of the Strategy design pattern, dependency injection, and collaborative
+                Git workflows including branch management and pull request reviews. 
               </p>
             </div>
           </div>
